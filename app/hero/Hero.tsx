@@ -139,7 +139,7 @@ const HeroText = ({ translateX, opacity, isLargeScreen }: AnimationProps) => (
       opacity,
     }}
   >
-    <h1 className="font-righteous text-4xl sm:text-5xl md:text-6xl lg:text-[80px] font-extrabold text-transparent bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text [text-shadow:_2px_2px_2px_rgb(0_0_0_/_2%)] antialiased">
+    <h1 className="font-righteous lg:text-right text-4xl sm:text-5xl md:text-6xl lg:text-[80px] font-extrabold text-transparent bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text [text-shadow:_2px_2px_2px_rgb(0_0_0_/_2%)] antialiased">
       Your Flavorful Tea
       <br />
       Journey Awaits!
