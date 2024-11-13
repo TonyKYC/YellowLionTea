@@ -93,7 +93,7 @@ const Hero = () => {
   }, [isLargeScreen]);
 
   return (
-    <section className="relative flex flex-col items-center min-h-screen w-full bg-gradient-to-tr from-[#F5A623] via-[#FF6F61] to-[#D7263D] overflow-hidden">
+    <section className="relative flex flex-col justify-evenly items-center h-screen w-full bg-gradient-to-tr from-[#F5A623] via-[#FF6F61] to-[#D7263D] overflow-hidden">
       <HeroImage
         translateX={animationState.image.translateX}
         opacity={animationState.image.opacity}
